@@ -1,13 +1,13 @@
-@import '../../colors.scss';
+@import "../../colors.scss";
 
 .btn-signup {
-    background-color: $ACCENT_COLOR;
-    border: 1px solid $ACCENT_COLOR;
-    color: $TEXT_COLOR;
+  background-color: $ACCENT_COLOR;
+  border: 1px solid $ACCENT_COLOR;
+  color: $TEXT_COLOR !important;
+  padding: 0.375rem 2.75rem;
 
-    &:hover {
-        background-color: $LIGHT_PRIMARY_COLOR;
-        color: $PRIMARY_TEXT;
-    }
-
-    }
+  &:hover {
+    background-color: $LIGHT_PRIMARY_COLOR;
+    color: $PRIMARY_TEXT !important;
+  }
+}
