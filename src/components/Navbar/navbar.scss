@@ -1,0 +1,13 @@
+@import '../../colors.scss';
+
+.btn-signup {
+    background-color: $ACCENT_COLOR;
+    border: 1px solid $ACCENT_COLOR;
+    color: $TEXT_COLOR;
+
+    &:hover {
+        background-color: $LIGHT_PRIMARY_COLOR;
+        color: $PRIMARY_TEXT;
+    }
+
+    }
